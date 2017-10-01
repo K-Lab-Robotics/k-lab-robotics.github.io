@@ -60,3 +60,7 @@ html, body {
     letter-spacing: 2px;
 }
 
+.top-carousel {
+    margin-top: 50px;
+    height: 760px;
+}
