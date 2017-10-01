@@ -74,3 +74,37 @@ h1, h2, h3, h4, h5, h6 {
     margin: 80px 0;
     height: 760px;
 }
+
+.label .label-p {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+footer.footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.footer__footer-wrap {
+}
+
+.footer__partners {
+    display: inline-flex;
+    width: 100%;
+}
+
+.partner {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: auto;
+}
+
+img.partner__img {
+    width: 100%;
+    height: auto;
+}
