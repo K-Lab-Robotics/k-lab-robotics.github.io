@@ -6,6 +6,10 @@ html, body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
 .header {
     margin: 0 auto;
     width: 1200px;
@@ -49,6 +53,7 @@ html, body {
     color: #282828;
     text-decoration: none;
     letter-spacing: 4px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .header__logo-link:hover {
