@@ -74,3 +74,55 @@ h1, h2, h3, h4, h5, h6 {
     margin: 80px 0;
     height: 760px;
 }
+
+.description {
+    margin: 0 auto;
+    width: 1400px;
+    display: flex;
+}
+
+.description__text {
+    flex: 1 1 600px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 36px;
+}
+
+.description__spacer {
+    flex: 1 1 600px;
+}
+
+.top-highlighted__wrapper {
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 0;
+    height: 200px;
+}
+
+.top-highlighted {
+    background-color: #FFBF32;
+    margin: 120px 0;
+}
+
+.top-highlighted__left-column {
+    flex: 1 0 auto;
+    padding-right: 100px;
+}
+
+.top-highlighted__right-column {
+    flex: 1 1 auto;
+}
+
+.top-highlighted__header {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.top-highlighted__text {
+    font-size: 22px;
+    line-height: 36px;
+    margin: 0;
+}
