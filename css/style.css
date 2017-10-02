@@ -9,6 +9,10 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
+ul {
+    list-style: none;
+}
+
 
 .header {
     margin: 0 auto;
@@ -55,9 +59,9 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 4px;
     font-family: 'Oswald', sans-serif;
 }
-
 .header__logo-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #282828;
 }
 
 .header__description {
@@ -124,5 +128,106 @@ h1, h2, h3, h4, h5, h6 {
 .top-highlighted__text {
     font-size: 22px;
     line-height: 36px;
+    margin: 0;
+}
+
+.label .label-p {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+footer.footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 5%;
+}
+
+.footer__footer-wrap {
+
+}
+
+.footer__partners {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.partner {
+    display: inline-flex;
+    position: relative;
+    height: auto;
+    margin: 5px;
+    width: calc(18.5% - 22.5px);
+    float: left;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+img.partner__img {
+    width: 100%;
+    height: auto;
+}
+
+.copyright {
+    color: #bbbbbb;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-ligatures: common-ligatures;
+    -webkit-font-variant-ligatures: common-ligatures;
+    -webkit-font-feature-settings: "kern";
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 6px;
+    font-family: cursive;
+    margin-top: 60px;
+    float: left;
+    width: 100%;
+}
+
+p.header__description {
+    color: rgba(40, 40, 40, 0.65);
+}
+
+.distance-medium {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.footer-menu {
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.footer-info--ul ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer__footer-info {
+
+}
+
+a.logo_logo-link:hover {
+    text-decoration: none;
+    color: #282828;
+}
+
+a.logo_logo-link {
+    color: #282828;
+}
+
+h1.logo_logo {
+    margin: 0;
+}
+
+p.logo_description {
     margin: 0;
 }
