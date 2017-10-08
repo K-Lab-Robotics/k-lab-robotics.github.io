@@ -191,6 +191,23 @@ img.partner__img {
     float: left;
     width: 100%;
 }
+.social {
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-variant-ligatures: common-ligatures;
+    -webkit-font-variant-ligatures: common-ligatures;
+    -webkit-font-feature-settings: "kern";
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 6px;
+    font-family: cursive;
+    float: left;
+    width: 100%;
+}
 
 p.header__description {
     color: rgba(40, 40, 40, 0.65);
@@ -209,10 +226,6 @@ p.header__description {
 .footer-info--ul ul {
     padding: 0;
     margin: 0;
-}
-
-.footer__footer-info {
-
 }
 
 a.logo_logo-link:hover {
